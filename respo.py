@@ -5,14 +5,15 @@ import socket, threading, time
 from queue import Queue
 import subprocess
 from datetime import datetime
+
 # for styling
 from colorama import init
 from colorama import Fore, Back, Style
 
 
-#TODO DIFFERENT MASKS
+# TODO DIFF MASKS
 from netaddr import IPNetwork
-#print(str(IPNetwork('1.2.3.4/255.255.255.0').cidr))
+# print(str(IPNetwork('1.2.3.4/255.255.255.0').cidr()))
 
 
 
@@ -33,7 +34,7 @@ end_port = 1024
 def Banner():
 
   print(Fore.RED)
-  print("                                         ")
+  print("                                                                                                   ")
   print("                                                                                                   ")
   print("                                                      .                                            ")
   print("                                        ,          ;kv                                             ")
@@ -224,10 +225,9 @@ def Responder():
 
     site_checklist = {
       "Dragon Services" : "dragon-services.eu",
-      "GoldenSand Bank" : "www.goldensandbank.com",
-      "Jira" : "jira.dragon-services.eu",
-      "NotWorkingTets" : "bullshieturladdress",
-      "Google" : "www.google.com",
+      "Bing" : "www.bing.com",
+      "YouTube" : "www.youtube.com",
+      "TestForNotWorkingURL" : "www.someimagineryurl.com",
       "RedHat" : "www.redhat.com"
     }
     
