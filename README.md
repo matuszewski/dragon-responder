@@ -5,3 +5,5 @@
   <li>netaddr</li>
 </ul>
 Python multi-thread port scanner and address list auto checker
+
+<code>python -m pip install --upgrade pip</code>
